@@ -3,7 +3,6 @@ import { expect, describe, it, beforeEach } from "vitest";
 import { AuthenticateUseCase } from "./authenticate";
 import { hash } from "bcryptjs";
 import { InvalidCredentialsError } from "./errors/invalid-credentials-error";
-import { before } from "node:test";
 
 let usersRepository: InMemoryUsersRepository;
 let sut: AuthenticateUseCase;
