@@ -29,7 +29,7 @@ describe("Fetch user check-in history Use Case", () => {
 
     expect(checkIns).toHaveLength(2);
     expect(checkIns).toEqual([
-      expect.objectContaining({ gym_id: "gym-01 " }),
+      expect.objectContaining({ gym_id: "gym-01" }),
       expect.objectContaining({ gym_id: "gym-02" }),
     ]);
   });
@@ -48,7 +48,7 @@ describe("Fetch user check-in history Use Case", () => {
 
     expect(checkIns).toHaveLength(2);
     expect(checkIns).toEqual([
-      expect.objectContaining({ gym_id: "gym-21 " }),
+      expect.objectContaining({ gym_id: "gym-21" }),
       expect.objectContaining({ gym_id: "gym-22" }),
     ]);
   });
